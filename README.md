@@ -1,4 +1,4 @@
-# Timeseries POC using Kafka - Spark Streaming - Parquet
+# Timeseries POC: Kafka -> Spark Streaming -> Parquet
 
 # Conditions/Constraints
 * Spark version: 2.1
