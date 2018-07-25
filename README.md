@@ -1,8 +1,8 @@
-# Timeseries POC: Kafka -> Spark Streaming -> Parquet
+# Timeseries PoC: Kafka -> Spark Streaming -> Parquet
 
-# Conditions/Constraints
+# Assumptions
 * Spark version: 2.1
-* The PoC should handle the timeseries ingested via Kafka using Spark Streaming API. 
+* The PoC should handle the timeseries ingested via Kafka using Spark Streaming DirectStream API. 
 * Spark Streaming application listen to a Kafka topics, parses/validate timeseries input from
 topic, serializes the micro-batch results into Parquet file(s).
 
